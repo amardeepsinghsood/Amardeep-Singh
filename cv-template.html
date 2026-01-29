@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amardeep - CV | Social Media & SEO Expert</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            font-size: 11pt;
+            line-height: 1.5;
+            color: #1a1a1a;
+            background: #fff;
+        }
+
+        .cv {
+            max-width: 210mm;
+            margin: 0 auto;
+            padding: 20mm;
+        }
+
+        /* Header */
+        .cv-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 24px;
+            padding-bottom: 16px;
+            border-bottom: 3px solid #C62828;
+        }
+
+        .cv-name {
+            font-size: 28pt;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 4px;
+        }
+
+        .cv-title {
+            font-size: 14pt;
+            font-weight: 500;
+            color: #C62828;
+            margin-bottom: 8px;
+        }
+
+        .cv-tagline {
+            font-size: 10pt;
+            color: #666;
+        }
+
+        .cv-contact {
+            text-align: right;
+            font-size: 9pt;
+            color: #444;
+        }
+
+        .cv-contact div {
+            margin-bottom: 4px;
+        }
+
+        .cv-contact a {
+            color: #C62828;
+            text-decoration: none;
+        }
+
+        /* Sections */
+        .cv-section {
+            margin-bottom: 20px;
+        }
+
+        .cv-section-title {
+            font-size: 12pt;
+            font-weight: 700;
+            color: #C62828;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 12px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        /* Experience */
+        .cv-item {
+            margin-bottom: 16px;
+        }
+
+        .cv-item-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 4px;
+        }
+
+        .cv-item-title {
+            font-size: 11pt;
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .cv-item-date {
+            font-size: 9pt;
+            color: #666;
+        }
+
+        .cv-item-subtitle {
+            font-size: 10pt;
+            color: #666;
+            margin-bottom: 6px;
+        }
+
+        .cv-item-desc {
+            font-size: 10pt;
+            color: #444;
+        }
+
+        .cv-item-desc ul {
+            margin-left: 16px;
+            margin-top: 4px;
+        }
+
+        .cv-item-desc li {
+            margin-bottom: 2px;
+        }
+
+        /* Skills */
+        .cv-skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+
+        .cv-skill {
+            display: inline-block;
+            padding: 4px 12px;
+            background: #f5f5f5;
+            border-radius: 4px;
+            font-size: 9pt;
+            color: #333;
+        }
+
+        .cv-skill--primary {
+            background: rgba(198, 40, 40, 0.1);
+            color: #C62828;
+        }
+
+        /* Projects */
+        .cv-project {
+            margin-bottom: 12px;
+        }
+
+        .cv-project-title {
+            font-weight: 600;
+            color: #1a1a1a;
+        }
+
+        .cv-project-link {
+            font-size: 9pt;
+            color: #C62828;
+        }
+
+        .cv-project-desc {
+            font-size: 10pt;
+            color: #444;
+            margin-top: 2px;
+        }
+
+        /* Two columns for skills/education */
+        .cv-two-col {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        /* Print styles */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+
+            .cv {
+                padding: 15mm;
+            }
+
+            .cv-section {
+                page-break-inside: avoid;
+            }
+        }
+
+        @page {
+            size: A4;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cv">
+        <!-- Header -->
+        <header class="cv-header">
+            <div>
+                <h1 class="cv-name">Amardeep</h1>
+                <p class="cv-title">Social Media & SEO Expert (AI-trained)</p>
+                <p class="cv-tagline">I turn ideas into searchable, scroll-stopping experiences.</p>
+            </div>
+            <div class="cv-contact">
+                <div><strong>Email:</strong> business@example.com</div>
+                <div><strong>Location:</strong> Noida, NCR, India</div>
+                <div><strong>Portfolio:</strong> <a href="https://amardeep.dev">amardeep.dev</a></div>
+                <div><strong>LinkedIn:</strong> <a href="#">linkedin.com/in/amardeep</a></div>
+            </div>
+        </header>
+
+        <!-- Summary -->
+        <section class="cv-section">
+            <h2 class="cv-section-title">Professional Summary</h2>
+            <p class="cv-item-desc">
+                Results-driven Social Media & SEO professional with 1.2 years of experience creating data-driven digital
+                strategies for luxury real estate brands. Skilled in content creation, community management, and
+                AI-powered marketing workflows. Proven track record of increasing engagement and generating qualified
+                leads through targeted campaigns.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="cv-section">
+            <h2 class="cv-section-title">Experience</h2>
+
+            <div class="cv-item">
+                <div class="cv-item-header">
+                    <span class="cv-item-title">Social Media & SEO Manager (Freelance)</span>
+                    <span class="cv-item-date">2024 – Present</span>
+                </div>
+                <div class="cv-item-subtitle">Finding Home | PreLaunchNCR | LuxuryHomesNCR</div>
+                <div class="cv-item-desc">
+                    <ul>
+                        <li>Manage complete social media presence across Instagram, Facebook, and LinkedIn</li>
+                        <li>Develop and execute content calendars aligned with product launches and market trends</li>
+                        <li>Implement on-page SEO strategies resulting in improved search rankings</li>
+                        <li>Create lead capture funnels and landing pages for pre-launch properties</li>
+                        <li>Analyze performance metrics using GA4 and adjust strategies accordingly</li>
+                        <li>Leverage AI tools for content generation while maintaining brand voice</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="cv-section">
+            <h2 class="cv-section-title">Key Projects</h2>
+
+            <div class="cv-project">
+                <span class="cv-project-title">PreLaunchNCR</span>
+                <span class="cv-project-link">— <a href="https://www.prelaunchncr.com/">prelaunchncr.com</a></span>
+                <p class="cv-project-desc">
+                    Landing page and lead capture system for pre-launch real estate properties. Implemented content
+                    calendar, on-page SEO, form integration, and ad creatives.
+                </p>
+            </div>
+
+            <div class="cv-project">
+                <span class="cv-project-title">LuxuryHomesNCR</span>
+                <span class="cv-project-link">— <a href="https://luxuryhomesncr.com/">luxuryhomesncr.com</a></span>
+                <p class="cv-project-desc">
+                    Luxury property listings with lead funnel optimization. Focus on SEO improvements, keyword
+                    targeting, creative social strategy, and CRO.
+                </p>
+            </div>
+
+            <div class="cv-project">
+                <span class="cv-project-title">Finding Home</span>
+                <span class="cv-project-link">— Social Media Management (Current Client)</span>
+                <p class="cv-project-desc">
+                    Complete social media management including content creation, community management, and engagement
+                    strategy.
+                </p>
+            </div>
+        </section>
+
+        <!-- Two column layout -->
+        <div class="cv-two-col">
+            <!-- Skills -->
+            <section class="cv-section">
+                <h2 class="cv-section-title">Skills</h2>
+                <div class="cv-skills">
+                    <span class="cv-skill cv-skill--primary">Social Media Marketing</span>
+                    <span class="cv-skill cv-skill--primary">SEO (On-page & Technical)</span>
+                    <span class="cv-skill cv-skill--primary">Content Strategy</span>
+                    <span class="cv-skill">Google Analytics 4</span>
+                    <span class="cv-skill">AI Content Generation</span>
+                    <span class="cv-skill">Community Management</span>
+                    <span class="cv-skill">Meta Ads</span>
+                    <span class="cv-skill">Lead Generation</span>
+                    <span class="cv-skill">Copywriting</span>
+                    <span class="cv-skill">Canva</span>
+                    <span class="cv-skill">WordPress</span>
+                </div>
+            </section>
+
+            <!-- Education -->
+            <section class="cv-section">
+                <h2 class="cv-section-title">Education & Certifications</h2>
+
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span class="cv-item-title">MBA (Integrated)</span>
+                        <span class="cv-item-date">In Progress</span>
+                    </div>
+                    <div class="cv-item-subtitle">Expected Completion: 2027</div>
+                </div>
+
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span class="cv-item-title">Higher Secondary (12th)</span>
+                        <span class="cv-item-date">Passed</span>
+                    </div>
+                </div>
+
+                <div class="cv-item">
+                    <div class="cv-item-header">
+                        <span class="cv-item-title">AI Generative Course</span>
+                        <span class="cv-item-date">Certificate</span>
+                    </div>
+                    <div class="cv-item-subtitle">Prompt engineering & AI content creation</div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+</body>
+
+</html>

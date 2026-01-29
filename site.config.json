@@ -1,0 +1,32 @@
+{
+  "business_email": "business@example.com",
+  "cv_path": "/assets/resume/Amardeep_CV_v2026.pdf",
+  "projects": [
+    {
+      "title": "PreLaunchNCR",
+      "url": "https://www.prelaunchncr.com/",
+      "description": "Landing + lead capture for new developments"
+    },
+    {
+      "title": "LuxuryHomesNCR",
+      "url": "https://luxuryhomesncr.com/",
+      "description": "Luxury property listings & lead funnels"
+    },
+    {
+      "title": "Finding Home",
+      "url": "#",
+      "description": "Social media management"
+    }
+  ],
+  "kpis": {
+    "projects": 3,
+    "response_time": "24h",
+    "clients": 5,
+    "engagement_increase": "150%"
+  },
+  "social": {
+    "linkedin": "#",
+    "instagram": "#",
+    "twitter": "#"
+  }
+}
